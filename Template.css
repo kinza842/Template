@@ -1,0 +1,365 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .slider-area .hero-caption h1 {
+    font-size: 43px;
+  }
+}
+body {
+  font-family: "Jost", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.navbar {
+  width: 99%;
+  height: 44px;
+  position: fixed;
+  border: 2px solid whitesmoke;
+  background-color: whitesmoke;
+  display: flex;
+  justify-items: center;
+  justify-content: space-evenly;
+  padding: 12px;
+}
+ul {
+  display: flex;
+}
+li {
+  list-style: none;
+  font-size: 1.3rem;
+  padding: 7px 20px;
+}
+.nav_logo {
+  font-size: 1.9rem;
+}
+button {
+  background-color: rgb(249, 133, 0);
+  color: white;
+  border: none;
+  border-radius: 45px;
+  font-size: 12px;
+  font-weight: bold;
+  width: 120px;
+  height: 40px;
+}
+
+.list_1:hover {
+  text-decoration-line: underline;
+  color: rgba(234, 157, 14, 0.916);
+}
+.list_2:hover {
+  color: rgba(234, 157, 14, 0.916);
+}
+section {
+  padding: 64px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.container_1 span {
+  text-decoration: underline;
+}
+.container_1 {
+  padding: 0px;
+  background: url("/images/cover\ image.jpeg") no-repeat center center / cover;
+  height: 40rem;
+  font-size: 2rem;
+  font-weight: bold;
+
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 45px;
+  font-size: 14px;
+  font-weight: bold;
+  width: 200px;
+  height: 60px;
+}
+input:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+.rating {
+  background-color: white;
+  color: black;
+  margin-left: 50px;
+  padding: 11% 0%;
+  width: 99%;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .section-padding {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+.rating h1,
+b {
+  font-weight: lighter;
+}
+h1 {
+  font-size: 40px;
+}
+h {
+  color: rgb(249, 133, 0);
+  font-size: 45px;
+  font-weight: bold;
+}
+.container_2 {
+  margin-right: 15%;
+  height: 55%;
+  width: 38%;
+  float: right;
+  font-size: 1.2rem;
+}
+.container_2 button {
+  width: 200px;
+  height: 60px;
+  font-size: 1.1rem;
+  font-weight: lighter;
+}
+.container_3 {
+  padding-left: 55px;
+  width: 95%;
+  background-color: rgba(234, 226, 226, 0.824);
+  display: flow-root;
+}
+.container_3 h1 {
+  padding-top: 85px;
+  font-weight: light;
+}
+.container_3 p {
+  padding: 0px 35px 0px 0px;
+  font-size: 20px;
+}
+.img {
+  padding-right: 140px;
+  float: right;
+}
+.bute {
+  border: 2px solid rgb(249, 133, 0);
+  border-radius: 40px;
+  width: 130px;
+  height: 25px;
+  font-size: 1.2rem;
+  background-color: rgba(234, 226, 226, 0.824);
+  color: rgb(249, 133, 0);
+  padding: 12px 0px 10px 30px;
+}
+
+.container_4 {
+  padding: 70px 250px 70px 250px;
+  background-color: rgb(255, 251, 251);
+}
+.container_4 h1 {
+  font-weight: lighter;
+}
+.brand {
+  padding: 0px 0px 150px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(255, 251, 251);
+}
+.brand img {
+  padding: 0px 54px;
+}
+
+.Budget {
+  color: rgb(249, 133, 0);
+}
+.container_5 {
+  width: 99%;
+  background-color: whitesmoke;
+  font-size: 1.2rem;
+}
+
+.container_5 h1 {
+  padding-top: 45px;
+}
+.container_5 li {
+  padding-left: 0px;
+}
+
+.img_1 {
+  padding-right: 60px;
+  float: left;
+}
+
+.bute_1 {
+  background-color: rgb(39, 38, 38);
+  color: white;
+  border: none;
+  border-radius: 45px;
+  font-size: 18px;
+  width: 140px;
+  height: 25px;
+  padding: 14px 10px 10px 34px;
+  margin-left: 720px;
+  margin-bottom: 38px;
+}
+#design {
+  padding: 44px;
+  background-color: rgb(254, 252, 252);
+  color: rgb(35, 34, 34);
+}
+.design_card i {
+  color: rgb(223, 106, 9);
+  font-size: 2.5rem;
+}
+.design_card {
+  padding-top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: rgb(254, 252, 252);
+  color: rgb(71, 69, 69);
+}
+.design_card p {
+  padding-left: 0px;
+}
+
+.card_1 {
+  margin: 15px;
+  padding: 35px;
+  background-color: white;
+  font-weight: lighter;
+  width: 40%;
+  height: 70%;
+}
+.card_1 p {
+  padding-left: 0px;
+}
+
+h2:hover {
+  color: orange;
+}
+a:hover {
+  color: orange;
+}
+.card_1 span {
+  font-size: 1rem;
+  color: orange;
+}
+.cards {
+  padding: 25px;
+  width: 99%;
+  display: flex;
+}
+
+.testimonial {
+  font-weight: lighter;
+  background-color: rgb(221, 189, 170);
+  padding: 75px 75px 75px 20px;
+}
+.discuss img {
+  float: right;
+  width: 40%;
+  height: 35rem;
+}
+.discuss h1,
+p {
+  padding: 0px 55px 0px 55px;
+}
+.discuss h1 {
+  padding-top: 15%;
+}
+.discuss {
+  font-size: 1.2rem;
+
+  background-color: #cfd6da;
+  padding-bottom: 120px;
+}
+.discuss button {
+  font-size: 1rem;
+  font-weight: lighter;
+  width: 180px;
+  height: 55px;
+  margin-left: 55px;
+}
+.help {
+  background-color: black;
+  color: white;
+  padding: 65px 99px 65px 35px;
+}
+.help button {
+  float: right;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.num {
+  color: orange;
+  font-size: 1.5rem;
+}
+.num:hover {
+  color: orange;
+  text-decoration: underline;
+}
+.contact:hover {
+  text-decoration: underline;
+}
+.franclin,
+.newsletter {
+  width: 25%;
+}
+
+.navigation ul {
+  display: flex;
+  flex-direction: column;
+}
+.services ul {
+  display: flex;
+  flex-direction: column;
+}
+.newsletter ul {
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  font-size: normal;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+footer h1 {
+  padding: 5px;
+  font-size: 25px;
+}
+footer li {
+  font-size: 13px;
+}
+footer li:hover {
+  text-decoration: underline;
+}
+footer input {
+  width: 95%;
+  padding-left: 16px;
+  background-color: white;
+  border: 1px solid orange;
+}
+footer span {
+  font-size: 0.9rem;
+  color: rgb(139, 134, 134);
+}
+footer i:hover {
+  transform: scaleX(-0.5);
+}
+.copyright {
+  padding-top: 130px;
+  padding-bottom: 7px;
+}
+.copyright span {
+  color: orange;
+}
